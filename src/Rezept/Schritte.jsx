@@ -1,5 +1,12 @@
 import React from 'react'
-import namen from './Rezept/Grunddaten.jsx'
+
+
+const Schritte = (props) => {
+    return(
+        <h3> Schritte</h3>
+        )
+}
+export default Schritte;
 
 // Schritte die bei der Herstellung des jeweiligen Cocktails beachtet werden müssen.
 /* zutaten.forEach(function(item, array) {
@@ -53,7 +60,20 @@ import namen from './Rezept/Grunddaten.jsx'
                 </ol>
             );
             break;
+        case item = "Tequila Sunrise":
+            return (
+                <ol>
+                    <li> Ein Longdrinkglas mit Eiswürfeln füllen. </li>
+                    <li> Tequila und Orangensaft zugeben. </li>
+                    <li> Grenadine hinzugeben. </li>
+                    <li> Danach mit einer Orange und einer Krische garnieren. </li>
+            );
+            break;
     }
 })
 
+*/
+/*
+Was noch fehlt: Die Funktion muss eingebunden werden, damit nur die Schritte des jeweilig vorher ausgewählten 
+Rezeptes ausgegeben werden.
 */
