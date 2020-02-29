@@ -14,14 +14,14 @@ const Einkaufen = (props) => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
         />
             </div>
-            <Button variant="contained" color="secondary">
+            <Button variant="contained" color="secondary" >
         Absenden
-      </Button>
+      </Button >
         </React.Fragment>
         )
 }
 export default Einkaufen;
 
 /*
-Was noch fehlt: Es muss gespeichert werden, ob die Checkbox abgehagt wurde.
+Was noch fehlt: Es muss gespeichert werden, ob die Checkbox abgehagt wurde. Übergang auf die nächste Seite.
 */

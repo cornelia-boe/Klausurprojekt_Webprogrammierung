@@ -9,7 +9,7 @@ const Schritte = (props) => {
 export default Schritte;
 
 // Schritte die bei der Herstellung des jeweiligen Cocktails beachtet werden müssen.
-/* zutaten.forEach(function(item, array) {
+zutaten.forEach(function(item, array) {
     switch (item) {
         case item = "Old Fashioned":
             return (
@@ -67,12 +67,13 @@ export default Schritte;
                     <li> Tequila und Orangensaft zugeben. </li>
                     <li> Grenadine hinzugeben. </li>
                     <li> Danach mit einer Orange und einer Krische garnieren. </li>
+                </ol>
             );
             break;
     }
 })
 
-*/
+
 /*
 Was noch fehlt: Die Funktion muss eingebunden werden, damit nur die Schritte des jeweilig vorher ausgewählten 
 Rezeptes ausgegeben werden.

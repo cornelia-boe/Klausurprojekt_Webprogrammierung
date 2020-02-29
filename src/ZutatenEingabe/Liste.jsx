@@ -26,7 +26,17 @@ const Liste = (props) => {
         )
 }
 export default Liste;
-/* 
-Was noch fehlt: Es müssen die Daten gespeichert werden, die angehagt wurden, damit diese mit den
+
+const checkboxes = zutaten.value;
+const num = checkboxes.length;
+
+for (let i; i<num; i++)  {
+    if (checkboxes[i].checked === true) {
+        checkitem = [];
+        checkitem = checkboxes[i].value + " ";
+    }
+} 
+/*
+ Was noch fehlt: Es müssen die Daten gespeichert werden, die angehagt wurden, damit diese mit den
 Zutaten der Cocktails verglichen werden können.
 */
