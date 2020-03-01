@@ -27,6 +27,8 @@ const Liste = (props) => {
 }
 export default Liste;
 
+/* 
+// Hier wird der Inhalt der abgehackten Checkboxen in einem Array gespeichert.
 const checkboxes = zutaten.value;
 const num = checkboxes.length;
 
@@ -35,8 +37,4 @@ for (let i; i<num; i++)  {
         checkitem = [];
         checkitem = checkboxes[i].value + " ";
     }
-} 
-/*
- Was noch fehlt: Es müssen die Daten gespeichert werden, die angehagt wurden, damit diese mit den
-Zutaten der Cocktails verglichen werden können.
-*/
+} */

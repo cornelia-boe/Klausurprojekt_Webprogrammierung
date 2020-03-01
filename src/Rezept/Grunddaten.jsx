@@ -18,7 +18,42 @@ const Grunddaten = (props) => {
 }
 export default Grunddaten;
 
-/* 
-Was noch fehlt: Es muss dafür gesorgt werden, dass nur der Name und die Zutaten des jeweilig zuvor aus-
-gewählten Rezepts ausgegeben werden.
+/*
+// Hier wird der jeweilige Name des Cocktails ausgegeben und dann die Zugehörigen Zutaten aus dem Array 
+ if (props.cocktails.value = 'Old Fashioned') {
+     return(
+         <h2> Old Fashioned </h2>
+         inhalt[0]
+     )
+ }
+ else if (porps.cocktails.value = 'Mojito') {
+     return(
+         <h2> Mojito </h2>
+         inhalt[1]
+     )
+ }
+ else if (porps.cocktails.value = 'Vodka Mojito') {
+     return(
+         <h2> Vodka Mojito </h2>
+         inhalt[2]
+     )
+ }
+ else if (props.cocktails.value = 'Skylap') {
+     return(
+         <h2> Skylap </h2>
+         inhalt[3]
+     )
+ }
+ else if (props.cocktails.value = 'So Sunrise') {
+     return(
+         <h2> So Sunrise </h2>
+         inhalt[4]
+     )
+ }
+ else {
+     return(
+         <h2> Tequila Sunrise </h2>
+         inhalt[5]
+     )
+ }
 */

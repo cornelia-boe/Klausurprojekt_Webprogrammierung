@@ -22,6 +22,3 @@ const Einkaufen = (props) => {
 }
 export default Einkaufen;
 
-/*
-Was noch fehlt: Es muss gespeichert werden, ob die Checkbox abgehagt wurde. Übergang auf die nächste Seite.
-*/
